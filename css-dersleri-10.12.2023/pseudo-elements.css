@@ -1,0 +1,40 @@
+
+
+/* p::first-line{
+    font-weight: bold;
+    background-color:coral;
+    color: #fff;
+}
+
+p::first-letter{
+    font-size: 32px;
+    color: #000;
+} */
+
+h1::before{
+    content: "Atakan";
+}
+
+h1::after{
+    content: "Atakan";
+}
+
+ul{
+    font-size: 32px;
+}
+
+li::marker
+{
+    font-size: 32px;
+    color: red;
+}
+
+::selection{
+    background-color: cyan;
+    color: #000;
+    font-weight: bold;
+}
+
+p:nth-child(3){
+    color: chocolate;
+}

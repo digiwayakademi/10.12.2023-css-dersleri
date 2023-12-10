@@ -1,0 +1,50 @@
+
+a{
+    border: 2px solid #000;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Ziyaret edilmemiş olan bir link için verilecek css kodları */
+a:link{
+    color: red;
+    border: 2px solid red;
+}
+
+/* Ziyaret edilmiş olan bir link için verilecek css kodları */
+
+a:visited{
+    color: green;
+    border: 2px solid green;
+}
+
+
+/* a etiketinin üstüne mousela geldiğimiz zaman gerçekleşen css kodları */
+a:hover{
+  background-color: coral;
+  color: #fff;
+  border: 2px solid #000;  
+}
+
+
+/* a etiketinin üstüne mouseun sol tıkıyla basılı tuttuğumda gerçekleşen css kodları */
+a:active{
+    background-color:darkmagenta;
+    color: #fff;
+    border: 2px solid #fff;     
+}
+
+
+div:hover p{
+   display: block; 
+}
+
+p{
+    display: none;
+}

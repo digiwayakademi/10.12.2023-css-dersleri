@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-header{
+    background-color: chocolate;
+    padding: 15px 25px;
+
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Afacad', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-nav{    
+    display: inline-block;
+    width: calc(100% - 100px);
+    text-align: right;
+    
+}
+
+.main-nav a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;    
+   
+}
+
+
+main{    
+    padding: 80px;
+    background-color: #FAF6F0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.category-list a{
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.category-list a li:hover{
+    background-color: black;
+    color: #fff;
+}
+
+
+.category-list li{
+    list-style: none;
+}
+
+.title-categories{
+    padding: 20px 0px;
+}
+
+
+aside{
+   
+    display: inline-block;    
+    width: 15%;
+    
+      
+}
+
+.blogs{
+    display: inline-block;
+    width: 84%;
+    
+}
+
+.blogs h3{
+   padding-top: 15px;
+   padding-bottom: 15px; 
+}
+
+
+.blog-4:hover p{
+    display: block;
+}
+.blog-4-p{
+    display: none;
+}
